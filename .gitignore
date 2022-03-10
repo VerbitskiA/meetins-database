@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+**/pgsql.meetins_test_db.properties
+**/pgsql.meetins_test_db_configuration.properties
+**/package-lock.json
