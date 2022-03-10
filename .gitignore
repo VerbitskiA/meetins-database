@@ -4,5 +4,4 @@
 
 /.vs
 **/pgsql.meetins_test_db.properties
-**/pgsql.meetins_test_db_configuration.properties
 **/package-lock.json
