@@ -1,0 +1,1 @@
+ALTER TABLE "Messenger"."Messages" ADD "IsRead" boolean NOT NULL DEFAULT false;
