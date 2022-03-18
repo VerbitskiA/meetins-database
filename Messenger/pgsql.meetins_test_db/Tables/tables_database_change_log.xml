@@ -9,5 +9,4 @@
   <include file="[Messenger].[DialogMembers]/table_change_log.xml" relativeToChangelogFile="true"/>	
   <include file="[Messenger].[Messages]/table_change_log.xml" relativeToChangelogFile="true"/>	
   <include file="[Messenger].[MessageContents]/table_change_log.xml" relativeToChangelogFile="true"/>	
-  <include file="[Messenger].[MessageProrepties]/table_change_log.xml" relativeToChangelogFile="true"/>		
 </databaseChangeLog>
