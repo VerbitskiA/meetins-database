@@ -7,12 +7,12 @@
 
   
 	<changeSet author=""
-            id="dboCreateSchema"
+            id="UserCreateSchema"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="dboCreateSchema.sql"
+	           path="UserCreateSchema.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>	

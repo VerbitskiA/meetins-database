@@ -5,15 +5,7 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-  
-	<changeSet author=""
-            id="dboCreateSchema"
-            dbms="postgresql">
-
-    <sqlFile encoding="utf8"
-	           endDelimiter="\nGO"
-	           path="dboCreateSchema.sql"
-	           relativeToChangelogFile="true"
-	           stripComments="false"/>
-  </changeSet>	
+  <include file="[User].[Users]/table_change_log.xml" relativeToChangelogFile="true"/>	
+  <include file="[User].[RefreshTokens]/table_change_log.xml" relativeToChangelogFile="true"/>	
+	
 </databaseChangeLog>

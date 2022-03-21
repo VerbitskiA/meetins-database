@@ -6,14 +6,5 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   
-	<changeSet author=""
-            id="dboCreateSchema"
-            dbms="postgresql">
-
-    <sqlFile encoding="utf8"
-	           endDelimiter="\nGO"
-	           path="dboCreateSchema.sql"
-	           relativeToChangelogFile="true"
-	           stripComments="false"/>
-  </changeSet>	
+  
 </databaseChangeLog>
