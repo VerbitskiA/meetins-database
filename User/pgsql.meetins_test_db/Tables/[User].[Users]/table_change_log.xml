@@ -15,5 +15,16 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
+
+  <changeSet author=""
+            id="[User].[Users]_AddColumns"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[User].[Users]_AddColumns.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
  
 </databaseChangeLog>
