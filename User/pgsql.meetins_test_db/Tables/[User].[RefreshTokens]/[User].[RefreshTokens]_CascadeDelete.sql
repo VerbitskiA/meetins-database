@@ -1,0 +1,2 @@
+ALTER TABLE "User"."RefreshTokens" DROP CONSTRAINT "RefreshTokens_UserId_fkey";
+ALTER TABLE "User"."RefreshTokens" ADD CONSTRAINT "RefreshTokens_UserId_fkey" FOREIGN KEY ("UserId") REFERENCES "User"."Users"("UserId") ON DELETE CASCADE;

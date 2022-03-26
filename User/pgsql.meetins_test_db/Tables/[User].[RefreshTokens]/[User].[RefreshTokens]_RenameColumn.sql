@@ -1,0 +1,1 @@
+ALTER TABLE "User"."RefreshTokens" RENAME COLUMN "Token" TO "RefreshToken";
