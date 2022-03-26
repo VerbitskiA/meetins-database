@@ -26,5 +26,16 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
+
+  <changeSet author=""
+            id="[dbo].[Cities]_AddColumn_NormalizedName"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Cities]_AddColumn_NormalizedName.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
  
 </databaseChangeLog>
