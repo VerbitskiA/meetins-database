@@ -22,7 +22,7 @@
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="[dbo].[Cities]_AddColumn_kudago"
+	           path="[dbo].[Cities]_AddColumn_kudago.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
