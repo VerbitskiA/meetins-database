@@ -15,5 +15,16 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
+
+  <changeSet author=""
+            id="[dbo].[Cities]_AddColumn_kudago"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Cities]_AddColumn_kudago"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
  
 </databaseChangeLog>
