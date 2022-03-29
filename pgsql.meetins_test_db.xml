@@ -9,4 +9,5 @@
 <include file="User/pgsql.meetins_test_db/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Events/pgsql.meetins_test_db/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Messenger/pgsql.meetins_test_db/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Info/pgsql.meetins_test_db/database_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
