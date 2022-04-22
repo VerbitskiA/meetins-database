@@ -9,4 +9,5 @@
   <include file="[Events].[Events]/table_change_log.xml" relativeToChangelogFile="true"/>	
   <include file="[Events].[EventsToUsers]/table_change_log.xml" relativeToChangelogFile="true"/>	
   <include file="[Events].[KudagoInvites]/table_change_log.xml" relativeToChangelogFile="true"/>	
+  <include file="[Events].[KudagoSubscribers]/table_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
